@@ -1,6 +1,4 @@
 (fp_lib_table
-  (lib (name 11_PSoC_FC_whoop)(type KiCad)(uri ${KIPRJMOD}/mod/11_PSoC_FC_whoop.pretty)(options "")(descr ""))
-  (lib (name ultimateFC)(type KiCad)(uri ${KIPRJMOD}/mod/ultimateFC.pretty)(options "")(descr ""))
-  (lib (name ultimateFC_yolo)(type KiCad)(uri /home/christoph/ext1TB/projekte/37_RC/kicad/yolo-fc-github/yolo-fc/kicad/ultimateFC.pretty)(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri /home/christoph/ext1TB/projekte/37_RC/kicad/19_ESC_single_G071_SIZF360/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints_old)(type KiCad)(uri /home/christoph/ext1TB/projekte/37_RC/kicad/19_ESC_single_G071_SIZF360/footprints.pretty)(options "")(descr "")(disabled))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/mod/footprints.pretty)(options "")(descr ""))
 )
