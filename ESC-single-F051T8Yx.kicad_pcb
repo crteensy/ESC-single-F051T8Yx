@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~87~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
     (drawings 11)
-    (tracks 391)
+    (tracks 393)
     (zones 0)
     (modules 56)
     (nets 43)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.1)
+    (last_trace_width 0.125)
     (user_trace_width 0.1)
     (user_trace_width 0.125)
     (user_trace_width 0.15)
@@ -76,7 +76,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.05)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -1258,7 +1258,7 @@
   )
 
   (module footprints:pad_io_1x1.5mm (layer "F.Cu_(sig)") (tedit 5F9B3010) (tstamp 60706BA5)
-    (at 58.25 64.1)
+    (at 56.7 64.05)
     (path /6173EDD1)
     (attr virtual)
     (fp_text reference FID4 (at 0 0.5) (layer F.SilkS) hide
@@ -1272,7 +1272,7 @@
   )
 
   (module footprints:pad_io_1x1.5mm (layer "F.Cu_(sig)") (tedit 5F9B3010) (tstamp 60706B9E)
-    (at 54.75 64.1)
+    (at 53.8 64.05)
     (path /616BE818)
     (attr virtual)
     (fp_text reference FID3 (at 0 0.5) (layer F.SilkS) hide
@@ -1326,15 +1326,15 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer "F.Cu_(sig)") (tedit 5B301BBD) (tstamp 60706E55)
-    (at 53 64)
+    (at 52.45 64 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61729B3B)
     (attr smd)
-    (fp_text reference R25 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R25 (at 0 -1.17 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10M (at 0 1.17) (layer F.Fab) hide
+    (fp_text value 10M (at 0 1.17 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1345,12 +1345,12 @@
     (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab) hide
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 2 smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 30 "Net-(R16-Pad1)"))
-    (pad 1 smd roundrect (at -0.485 0) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 42 "Net-(FID5-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -1360,15 +1360,15 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer "F.Cu_(sig)") (tedit 5B301BBD) (tstamp 60706E46)
-    (at 56.5 64 180)
+    (at 55.1 63.85 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61723944)
     (attr smd)
-    (fp_text reference R24 (at 0 -1.17) (layer F.SilkS) hide
+    (fp_text reference R24 (at 0 -1.17 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10M (at 0 1.17) (layer F.Fab) hide
+    (fp_text value 10M (at 0 1.17 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1379,12 +1379,12 @@
     (fp_line (start -0.93 -0.47) (end 0.93 -0.47) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.93 -0.47) (end 0.93 0.47) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.93 0.47) (end -0.93 0.47) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab) hide
+    (fp_text user %R (at 0 0 90) (layer F.Fab) hide
       (effects (font (size 0.25 0.25) (thickness 0.04)))
     )
-    (pad 2 smd roundrect (at 0.485 0 180) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 32 "Net-(R19-Pad1)"))
-    (pad 1 smd roundrect (at -0.485 0 180) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.485 0 90) (size 0.59 0.64) (layers "F.Cu_(sig)" F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 41 "Net-(FID4-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl
       (at (xyz 0 0 0))
@@ -2482,9 +2482,8 @@
   (segment (start 52.2 62.8) (end 52.2 63) (width 0.25) (layer "B.Cu_(sig)") (net 30) (tstamp 6070F33A))
   (segment (start 51.9 62.5) (end 52.2 62.8) (width 0.25) (layer "B.Cu_(sig)") (net 30) (tstamp 6070F4BD))
   (via (at 52.2 63) (size 0.4) (drill 0.2) (layers "F.Cu_(sig)" "B.Cu_(sig)") (net 30) (tstamp 6070F3F1))
-  (segment (start 53.485 64) (end 52.885 63.4) (width 0.125) (layer "F.Cu_(sig)") (net 30))
-  (segment (start 52.6 63.4) (end 52.2 63) (width 0.125) (layer "F.Cu_(sig)") (net 30))
-  (segment (start 52.885 63.4) (end 52.6 63.4) (width 0.125) (layer "F.Cu_(sig)") (net 30))
+  (segment (start 52.45 63.25) (end 52.2 63) (width 0.125) (layer "F.Cu_(sig)") (net 30))
+  (segment (start 52.45 63.515) (end 52.45 63.25) (width 0.125) (layer "F.Cu_(sig)") (net 30))
   (segment (start 52.65 62.15) (end 52.4 61.9) (width 0.25) (layer "B.Cu_(sig)") (net 31) (tstamp 6070F4B1))
   (segment (start 52.65 62.25) (end 52.65 62.15) (width 0.25) (layer "B.Cu_(sig)") (net 31) (tstamp 6070F4D5))
   (segment (start 52.4 61.9) (end 51.9 61.9) (width 0.25) (layer "B.Cu_(sig)") (net 31) (tstamp 6070F52F))
@@ -2492,9 +2491,8 @@
   (segment (start 54.6 62.8) (end 54.6 63) (width 0.25) (layer "B.Cu_(sig)") (net 32) (tstamp 6070F2D1))
   (segment (start 54.6 63) (end 54.6 62.045) (width 0.25) (layer "F.Cu_(sig)") (net 32) (tstamp 6070F51D))
   (segment (start 54.9 62.5) (end 54.6 62.8) (width 0.25) (layer "B.Cu_(sig)") (net 32) (tstamp 6070F2AD))
-  (segment (start 56.015 64) (end 56.015 63.515) (width 0.125) (layer "F.Cu_(sig)") (net 32))
-  (segment (start 55.5 63) (end 54.6 63) (width 0.125) (layer "F.Cu_(sig)") (net 32))
-  (segment (start 56.015 63.515) (end 55.5 63) (width 0.125) (layer "F.Cu_(sig)") (net 32))
+  (segment (start 54.735 63) (end 55.1 63.365) (width 0.125) (layer "F.Cu_(sig)") (net 32))
+  (segment (start 54.6 63) (end 54.735 63) (width 0.125) (layer "F.Cu_(sig)") (net 32))
   (segment (start 54.4 61.9) (end 54.9 61.9) (width 0.25) (layer "B.Cu_(sig)") (net 33) (tstamp 6070F244))
   (segment (start 54.15 62.15) (end 54.4 61.9) (width 0.25) (layer "B.Cu_(sig)") (net 33) (tstamp 6070EF71))
   (segment (start 54.15 62.25) (end 54.15 62.15) (width 0.25) (layer "B.Cu_(sig)") (net 33) (tstamp 6070F2CB))
@@ -2520,8 +2518,6 @@
   (via (at 52.525 58.875) (size 0.4) (drill 0.2) (layers "F.Cu_(sig)" "B.Cu_(sig)") (net 35))
   (segment (start 52.08 59.32) (end 52.08 59.4) (width 0.15) (layer "B.Cu_(sig)") (net 35))
   (segment (start 53.9 63) (end 53.15 63) (width 0.125) (layer "F.Cu_(sig)") (net 35))
-  (segment (start 54.75 64) (end 54.75 63.85) (width 0.125) (layer "F.Cu_(sig)") (net 35))
-  (segment (start 54.75 63.85) (end 53.9 63) (width 0.125) (layer "F.Cu_(sig)") (net 35))
   (segment (start 52.55 58.9) (end 52.525 58.875) (width 0.15) (layer "F.Cu_(sig)") (net 35))
   (segment (start 52.92 58.9) (end 52.55 58.9) (width 0.15) (layer "F.Cu_(sig)") (net 35))
   (segment (start 53.015 58.4) (end 52.92 58.495) (width 0.15) (layer "F.Cu_(sig)") (net 35))
@@ -2530,6 +2526,8 @@
   (segment (start 53 61.86) (end 52.93 61.79) (width 0.1) (layer "F.Cu_(sig)") (net 35))
   (segment (start 52.93 58.91) (end 52.92 58.9) (width 0.1) (layer "F.Cu_(sig)") (net 35))
   (segment (start 52.93 61.79) (end 52.93 58.91) (width 0.1) (layer "F.Cu_(sig)") (net 35))
+  (segment (start 54 63.1) (end 54 64.05) (width 0.125) (layer "F.Cu_(sig)") (net 35))
+  (segment (start 53.9 63) (end 54 63.1) (width 0.125) (layer "F.Cu_(sig)") (net 35))
   (segment (start 57.25 60.25) (end 57.25 59.45) (width 0.125) (layer "B.Cu_(sig)") (net 36) (tstamp 6070F19C))
   (segment (start 57.25 59.45) (end 57.6 59.45) (width 0.125) (layer "B.Cu_(sig)") (net 36) (tstamp 6070F22F))
   (segment (start 57.175 57.525) (end 57.175 57.125) (width 0.125) (layer "B.Cu_(sig)") (net 36) (tstamp 6070D100))
@@ -2567,8 +2565,12 @@
   (segment (start 56.5 54.575) (end 56.35 54.425) (width 0.125) (layer "F.Cu_(sig)") (net 40))
   (segment (start 57.3 55.2) (end 56.675 54.575) (width 0.125) (layer "F.Cu_(sig)") (net 40))
   (segment (start 56.675 54.575) (end 56.5 54.575) (width 0.125) (layer "F.Cu_(sig)") (net 40))
-  (segment (start 56.985 64) (end 58.25 64) (width 0.125) (layer "F.Cu_(sig)") (net 41))
-  (segment (start 51.25 64) (end 52.515 64) (width 0.125) (layer "F.Cu_(sig)") (net 42))
+  (segment (start 55.985 64.35) (end 56.335 64) (width 0.125) (layer "F.Cu_(sig)") (net 41))
+  (segment (start 55.535 64.35) (end 55.985 64.35) (width 0.125) (layer "F.Cu_(sig)") (net 41))
+  (segment (start 55.1 64.335) (end 55.52 64.335) (width 0.125) (layer "F.Cu_(sig)") (net 41))
+  (segment (start 55.52 64.335) (end 55.535 64.35) (width 0.125) (layer "F.Cu_(sig)") (net 41))
+  (segment (start 52.065 64.1) (end 51.25 64.1) (width 0.125) (layer "F.Cu_(sig)") (net 42))
+  (segment (start 52.45 64.485) (end 52.065 64.1) (width 0.125) (layer "F.Cu_(sig)") (net 42))
 
   (zone (net 3) (net_name GND) (layer "In2.Cu_(Gnd)") (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.15))
