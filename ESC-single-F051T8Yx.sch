@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "halariESC"
-Date "2021-04-08"
+Date "2021-04-10"
 Rev "v0.1"
 Comp "crteensy"
 Comment1 ""
@@ -636,12 +636,12 @@ AL
 $Comp
 L power:+5V #PWR0124
 U 1 1 607C5C6D
-P 3300 1050
-F 0 "#PWR0124" H 3300 900 50  0001 C CNN
-F 1 "+5V" H 3315 1223 50  0000 C CNN
-F 2 "" H 3300 1050 50  0001 C CNN
-F 3 "" H 3300 1050 50  0001 C CNN
-	1    3300 1050
+P 2950 1050
+F 0 "#PWR0124" H 2950 900 50  0001 C CNN
+F 1 "+5V" H 2965 1223 50  0000 C CNN
+F 2 "" H 2950 1050 50  0001 C CNN
+F 3 "" H 2950 1050 50  0001 C CNN
+	1    2950 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -649,16 +649,16 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR0125
 U 1 1 607C7982
-P 4600 1050
-F 0 "#PWR0125" H 4600 900 50  0001 C CNN
-F 1 "+3V3" H 4615 1223 50  0000 C CNN
-F 2 "" H 4600 1050 50  0001 C CNN
-F 3 "" H 4600 1050 50  0001 C CNN
-	1    4600 1050
+P 4950 1050
+F 0 "#PWR0125" H 4950 900 50  0001 C CNN
+F 1 "+3V3" H 4965 1223 50  0000 C CNN
+F 2 "" H 4950 1050 50  0001 C CNN
+F 3 "" H 4950 1050 50  0001 C CNN
+	1    4950 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 1050 4600 1150
+	4950 1050 4950 1150
 Wire Wire Line
 	4600 1150 4500 1150
 $Comp
@@ -1563,7 +1563,6 @@ F 3 "~" H 4600 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4600 1150 4600 1250
-Connection ~ 4600 1150
 $Comp
 L power:GND #PWR0146
 U 1 1 60B0703C
@@ -1576,7 +1575,7 @@ F 3 "" H 4600 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 1750 4600 1450
+	4600 1750 4600 1550
 $Comp
 L symbols:SIZF360DT-T1-GE3 U3
 U 1 1 60CFCB14
@@ -1621,21 +1620,8 @@ $EndComp
 Connection ~ 8050 5300
 Wire Wire Line
 	8050 5300 8050 5400
-$Comp
-L Device:C_Small C12
-U 1 1 615A2B93
-P 3300 1300
-F 0 "C12" H 3392 1346 50  0000 L CNN
-F 1 "1u" H 3392 1255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 1300 50  0001 C CNN
-F 3 "~" H 3300 1300 50  0001 C CNN
-	1    3300 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 1450 3600 1150
-Wire Wire Line
-	3300 1400 3300 1750
 $Comp
 L power:GND #PWR0147
 U 1 1 615C42CD
@@ -1648,12 +1634,9 @@ F 3 "" H 3300 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 1050 3300 1150
-Wire Wire Line
 	3300 1150 3600 1150
-Connection ~ 3300 1150
 Wire Wire Line
-	3300 1150 3300 1200
+	3300 1150 3300 1250
 Connection ~ 3600 1150
 Wire Wire Line
 	4100 1700 4200 1700
@@ -1777,4 +1760,69 @@ Wire Wire Line
 Wire Wire Line
 	9250 5900 9250 6000
 Connection ~ 9050 5900
+$Comp
+L Device:CP_Small C13
+U 1 1 608BC6D0
+P 2950 1350
+F 0 "C13" H 3038 1396 50  0000 L CNN
+F 1 "CP_Small" H 3038 1305 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2950 1350 50  0001 C CNN
+F 3 "~" H 2950 1350 50  0001 C CNN
+	1    2950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1050 2950 1150
+Wire Wire Line
+	2950 1150 3300 1150
+Connection ~ 2950 1150
+Wire Wire Line
+	2950 1150 2950 1250
+Connection ~ 3300 1150
+Wire Wire Line
+	3300 1450 3300 1550
+$Comp
+L Device:C_Small C12
+U 1 1 615A2B93
+P 3300 1350
+F 0 "C12" H 3392 1396 50  0000 L CNN
+F 1 "1u" H 3392 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3300 1350 50  0001 C CNN
+F 3 "~" H 3300 1350 50  0001 C CNN
+	1    3300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1450 2950 1550
+Wire Wire Line
+	2950 1550 3300 1550
+Connection ~ 3300 1550
+Wire Wire Line
+	3300 1550 3300 1750
+NoConn ~ 4400 4900
+NoConn ~ 3300 4800
+$Comp
+L Device:CP_Small C14
+U 1 1 6093E24A
+P 4950 1350
+F 0 "C14" H 5038 1396 50  0000 L CNN
+F 1 "CP_Small" H 5038 1305 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4950 1350 50  0001 C CNN
+F 3 "~" H 4950 1350 50  0001 C CNN
+	1    4950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1150 4950 1150
+Connection ~ 4600 1150
+Wire Wire Line
+	4950 1150 4950 1250
+Connection ~ 4950 1150
+Wire Wire Line
+	4600 1550 4950 1550
+Wire Wire Line
+	4950 1550 4950 1450
+Connection ~ 4600 1550
+Wire Wire Line
+	4600 1550 4600 1450
 $EndSCHEMATC
