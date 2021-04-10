@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "halariESC"
-Date "2021-04-10"
+Date "2021-04-11"
 Rev "v0.1"
 Comp "crteensy"
 Comment1 ""
@@ -691,7 +691,7 @@ U 1 1 608320F0
 P 750 1200
 F 0 "TP3" H 1010 1294 50  0000 L CNN
 F 1 "TestPoint_Flag" H 1010 1203 50  0000 L CNN
-F 2 "footprints:batt_pad_wide_relaxed" H 950 1200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 950 1200 50  0001 C CNN
 F 3 "~" H 950 1200 50  0001 C CNN
 	1    750  1200
 	1    0    0    -1  
@@ -702,7 +702,7 @@ U 1 1 60834032
 P 750 850
 F 0 "TP2" H 1150 850 50  0000 R CNN
 F 1 "TestPoint_Flag" H 1550 950 50  0000 R CNN
-F 2 "footprints:batt_pad_wide_relaxed" H 950 850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 950 850 50  0001 C CNN
 F 3 "~" H 950 850 50  0001 C CNN
 	1    750  850 
 	1    0    0    1   
@@ -1582,7 +1582,7 @@ U 1 1 60CFCB14
 P 9050 1500
 F 0 "U3" H 9150 1750 50  0000 L CNN
 F 1 "SIZF360DT-T1-GE3" H 9200 1650 50  0000 L CNN
-F 2 "footprints:PowerPair_3.3x3.3F_BWL" H 9650 1800 50  0001 C CNN
+F 2 "footprints:PowerPair_3.3x3.3F_BWL_mod" H 9650 1800 50  0001 C CNN
 F 3 "" H 9650 1800 50  0001 C CNN
 	1    9050 1500
 	1    0    0    -1  
@@ -1598,7 +1598,7 @@ U 1 1 614F6899
 P 9050 3400
 F 0 "U5" H 9150 3650 50  0000 L CNN
 F 1 "SIZF360DT-T1-GE3" H 9200 3550 50  0000 L CNN
-F 2 "footprints:PowerPair_3.3x3.3F_BWL" H 9650 3700 50  0001 C CNN
+F 2 "footprints:PowerPair_3.3x3.3F_BWL_mod" H 9650 3700 50  0001 C CNN
 F 3 "" H 9650 3700 50  0001 C CNN
 	1    9050 3400
 	1    0    0    -1  
@@ -1612,7 +1612,7 @@ U 1 1 61515A43
 P 9050 5300
 F 0 "U7" H 9150 5550 50  0000 L CNN
 F 1 "SIZF360DT-T1-GE3" H 9200 5450 50  0000 L CNN
-F 2 "footprints:PowerPair_3.3x3.3F_BWL" H 9650 5600 50  0001 C CNN
+F 2 "footprints:PowerPair_3.3x3.3F_BWL_mod" H 9650 5600 50  0001 C CNN
 F 3 "" H 9650 5600 50  0001 C CNN
 	1    9050 5300
 	1    0    0    -1  
@@ -1766,7 +1766,7 @@ U 1 1 608BC6D0
 P 2950 1350
 F 0 "C13" H 3038 1396 50  0000 L CNN
 F 1 "CP_Small" H 3038 1305 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2950 1350 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T" H 2950 1350 50  0001 C CNN
 F 3 "~" H 2950 1350 50  0001 C CNN
 	1    2950 1350
 	1    0    0    -1  
@@ -1807,7 +1807,7 @@ U 1 1 6093E24A
 P 4950 1350
 F 0 "C14" H 5038 1396 50  0000 L CNN
 F 1 "CP_Small" H 5038 1305 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 4950 1350 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T" H 4950 1350 50  0001 C CNN
 F 3 "~" H 4950 1350 50  0001 C CNN
 	1    4950 1350
 	1    0    0    -1  
